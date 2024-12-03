@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Github Sanity Tests" parallel="methods" thread-count="4">
+  <test name="Sanity for chrome">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.github.com.test.login.LoginTest" />
+      <class name="com.github.com.test.commit.CreateCommitTest" />
+      <class name="com.github.com.test.issues.CreateIssueTest" />
+      <class name="com.github.com.test.register.RegisterUserTest" />
+    </classes>
+  </test>
+</suite>
