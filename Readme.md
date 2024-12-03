@@ -41,4 +41,4 @@ $ mvn clean test
 
 #### Information: 
 
-* Create account test is based on random data, can failed from time to time
+* RegisterUserTest is based on random data, can failed from time to time
